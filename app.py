@@ -48,3 +48,8 @@ def predict():
 @app.get("/health")
 def health_check():
     return "OK"
+
+@app.get("/version")
+def get_version():
+    return "v0.1"
+
