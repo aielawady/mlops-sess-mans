@@ -1,9 +1,9 @@
-from typing import Optional
+from typing import Optional, List
 from pydantic import BaseModel
 
 
 class SamplePostRequest(BaseModel):
     a: int
     b: str
-    c: list[int]
+    c: List[int]
     f: Optional[str]
