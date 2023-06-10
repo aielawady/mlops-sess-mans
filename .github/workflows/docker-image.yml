@@ -29,7 +29,7 @@ jobs:
         logout: true # optional, default is true
         
     - name: Push Image
-    - run: |
+      run: |
         docker tag mlops1 aielawady/mlops-sess-mans && \
         docker push aielawady/mlops-sess-mans
         
